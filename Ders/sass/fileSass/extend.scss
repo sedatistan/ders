@@ -1,0 +1,16 @@
+%displayRowKenar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+%main-container {
+    position: relative;
+    width: $main-container;
+    margin: auto;
+}
+
+%yuvarla{
+    text-align: center;
+    @include radius(50%);
+}

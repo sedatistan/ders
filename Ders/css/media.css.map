@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/fileSass/media.scss"
+    ],
+    "names": [],
+    "file": "media.css"
+}

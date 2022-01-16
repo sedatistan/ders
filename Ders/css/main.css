@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One|Source+Serif+Pro:400,600,700&display=swap&subset=latin-ext,vietnamese");
+.banner .container, .banner .container .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner .container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.banner .container .facebook, .banner .container .twitter, .banner .container .google, .banner .container .linkedin, .banner .container .pinterest {
+  text-align: center;
+  border-radius: 50%;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Source Serif Pro", serif;
+  color: #ffffff;
+}
+
+.banner {
+  padding: 10px 0;
+  background-color: #000000;
+}
+
+.banner .container {
+  line-height: 30px;
+}
+
+.banner .container .contact {
+  width: 320px;
+}
+
+.banner .container .contact i {
+  color: #df480c;
+  margin-right: 5px;
+}
+
+.banner .container .facebook, .banner .container .twitter, .banner .container .google, .banner .container .linkedin, .banner .container .pinterest {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.banner .container .facebook {
+  background-color: #0d0179;
+}
+
+.banner .container .twitter {
+  background-color: #5a7ddd;
+}
+
+.banner .container .google {
+  background-color: #017915;
+}
+
+.banner .container .linkedin {
+  background-color: #2d1dc0;
+}
+
+.banner .container .pinterest {
+  background-color: #77140d;
+}
+/*# sourceMappingURL=main.css.map */

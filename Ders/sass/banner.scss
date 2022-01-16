@@ -1,0 +1,37 @@
+$sosyalMedia: (
+    facebook: rgb(13, 1, 121),
+    twitter: rgb(90, 125, 221),
+    google: rgb(1, 121, 21),
+    linkedin: rgb(45, 29, 192),
+    pinterest: rgb(119, 20, 13),
+);
+
+.banner {
+    padding: 10px 0;
+    background-color: $banner-background;
+    .container {
+        @extend %main-container;
+        @extend %displayRowKenar;
+        line-height: 30px;
+        .contact {
+            @extend %displayRowKenar;
+            width: 320px;
+            i {
+                color: $icon-contact;
+                margin-right: 5px;
+            }
+        }
+        %sosyalMedia {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            @extend %yuvarla;
+        }
+        @each $name, $color in $sosyalMedia {
+            .#{$name} {
+                background-color: $color;
+                @extend %sosyalMedia;
+            }
+        }
+    }
+}
